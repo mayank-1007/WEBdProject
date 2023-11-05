@@ -1,0 +1,145 @@
+#img1{
+	height: 100px;
+	width: 180px;
+
+
+}
+#span-1{
+	margin-left: 100px;
+	text-align: center;
+	word-spacing: 50px;
+	display: inline-block;
+}
+#header-1{
+	width: 100%;
+	background-color: lightcyan;
+	border-radius: 25px;
+}
+
+.he-1{
+	font-family: 'Times New Roman', Times, serif;
+	color: black;
+	display: inline-block;
+
+}
+.he-1:hover{
+	color: red;
+}
+#he-2{
+
+	transition: opacity 1s,transform 1s;
+	transform: translateY(0);
+	color: black;
+	display: inline-block;
+
+}
+#he-2:hover{
+	transition: opacity 1s,transform 1s;
+	transform: translateY(0);
+	
+	color: red;
+}
+
+main{
+	display: inline-block;
+	margin-top: 50px;
+	font-size: 18px;
+	margin-left: 5%;
+	width: 70%;
+	
+}
+body{
+	background-image: url("https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698278400&semt=ais");
+	background-size:cover;
+
+}
+.para-1{
+	font-family: Arial;
+}
+
+.div-1{
+	position: relative;
+	display: inline-block;
+
+}
+.div-2{
+	text-align: center;
+	display: none;
+	position: absolute;
+	background-color: transparent;
+	border-radius: 25px;
+	float: center;
+
+}
+
+.div-2 a{
+	text-align: center;
+	background-color: #1b9fd7;
+	color: #dde7ea;
+	text-decoration: none;
+	font-size: 25px;
+	border-radius: 8px;
+	transition: opacity 1s,transform 1s;
+	transform: translateX(0);
+	float: center;
+	display: block;
+
+}
+.div-2 a:hover{
+	color: blue;
+	font-size: 27px;
+
+	transition: opacity 1s,transform 1s;
+	transform: translateX(0);
+
+}
+.div-1:hover .div-2{
+	display: block;
+	opacity: 1;
+}
+#u-1{
+	background-color: #1b9fd7;
+	border-radius: 10px;
+	color: grey;
+}
+
+
+aside{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 40px;
+	width:20%;
+	margin-right: 0px;
+	height: 500px;
+	background-color: transparent;
+    color: rgb(0, 0, 0);
+	border-radius: 10px;
+	border-color: grey;
+	border-style: dashed;
+}
+.feed{
+	opacity: 0.4;
+}
+#div-3{
+	margin-left: 10px;
+	margin-top: 1px;
+    border-top: 20px solid rgb(0, 0, 0);
+}
+.abc{
+	margin-left: 3px;
+	font-size: 20px;
+}
+.resizedTextbox {
+	margin-left: 3px;
+	width: 200px; 
+	height: 20px;
+	border-radius: 5px;
+	border-style: dashed;
+}
+.resizedTextboxx {
+	margin-left: 3px;
+	width: 200px; 
+	height: 100px;
+	border-radius: 5px;
+	border-style: dashed;
+}

@@ -1,0 +1,49 @@
+#abc {
+	color:rgba(34, 34, 76, 0);
+width: 300px;
+height: 100px;
+margin:40px;
+
+}
+body {
+	background-image: url("/bg-6.jpg");
+
+	background-repeat: no-repeat;
+	background-attachment:fixed ;
+	background-size: cover;
+}
+#he-1{
+	font-size: 24px;
+	text-decoration: none;
+	color: darkgrey;
+}
+#he-1:hover{
+	color: red;
+}
+
+#p1{
+	text-align: right;
+}
+
+table tr{
+
+	color: cyan;
+	font-size: 25px;
+}
+.email-1{
+	padding-top: 6px;
+	border-radius: 10px;
+	border-color: white;
+	margin-left: 5px;
+}
+#sub-1{
+	border-radius: 8px;
+	border-color: black;
+	width: 100px;
+	height: 25px;
+	box-shadow: 0;
+}
+#par-1{
+	font-size: 18px;
+
+}
